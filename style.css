@@ -1,0 +1,181 @@
+body {
+    background-image: radial-gradient(circle, hsl(273, 75%, 66%) 10%, hsl(240, 73%, 65%) 90%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.main {
+    box-shadow: 0 30px 30px hsl(240, 38%, 50%);
+    display: inline-block;
+    border-color: white;
+    background-color: white;
+    border-radius: 25px;
+}
+#text h1 {
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: hsl(238, 29%, 16%);
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+li>p:first-child {
+    color: hsl(237, 12%, 33%);
+    margin: 10px 0;
+    display: inline-block;
+}
+.arrow1, .arrow2, .arrow3, .arrow4, .arrow5 {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 auto;
+    padding: 0;
+    background-image: url("images/icon-arrow-down.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.line {
+    border-top: 1px solid hsl(240, 5%, 91%);
+}
+.ans1, .ans2, .ans3, .ans4, .ans5 {
+    margin: 16px 0;
+    font-size: 90%;
+    color: hsl(240, 6%, 50%);
+}
+li>p:first-child:hover {
+    cursor: pointer;
+    color: hsl(14, 88%, 65%);
+}
+.arrow1:hover, .arrow2:hover, .arrow3:hover, .arrow4:hover, .arrow5:hover {
+    cursor: pointer;
+}
+@media (min-width: 376px){              /* For screens bigger than 376px */
+    html, body {
+        display: inline-block;
+        margin: 0;
+        max-width: 1440px;
+        min-width: 376px;
+        height: 768px;
+    }
+    .main {
+        margin: 140px 263px;
+        width: 914px;
+        height: 480px;
+    }
+    .logo {
+        float: left;
+        width: 417px;
+        height: 480px;
+        margin: 0 20px 0 0;
+        background-image: url("images/bg-pattern-desktop.svg");
+        background-position: bottom -110px right 47px;
+        background-repeat: no-repeat;
+        background-size: 200%;
+    }
+    #woman {
+        float: left;
+        margin: 0;
+        background-image: url("images/illustration-woman-online-desktop.svg");
+        background-position: bottom 80px right 30px;
+        background-repeat: no-repeat;
+        background-size: 110%;
+        width: 400px;
+        height: 480px;
+    }
+    #box{
+        display: hide;
+        position: absolute;
+        top: 325px;
+        left: 135px;
+        float: left;
+        width: 191px;
+        height: 184px;
+        margin: 0;
+        background-image: url("images/illustration-box-desktop.svg");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+    }
+    #text {
+        float: left;
+        margin: 40px 20px;
+        width: 417px;
+        height: 400px;
+        font-size: 100%;
+    }
+    #text h1 {
+        text-align: left;
+    }
+    ul {
+        margin: 0;
+        margin-right: 50px;
+    }
+    li>p:first-child {
+        width: 342px;
+    }
+}
+
+@media (max-width: 375px){              /* For screens smaller than 375px */
+    html, body {
+        display: inline-block;
+        margin: 0;
+        max-width: 375px;
+        min-width: 100px;
+        height: 768px;
+    }
+    .main {
+        margin: 150px 25px 80px 25px;
+        width: 325px;
+        height: 538px;
+    }
+    .logo {
+        width: 325px;
+        height: 115px;
+        margin: 0 20px 0 0;
+        background-image: url("images/bg-pattern-desktop.svg");
+        background-position: center -130px;
+        background-repeat: no-repeat;
+        background-size: 75%;
+    }
+    #woman {
+        display: hide;
+        position: absolute;
+        top: 6px;
+        left: 35px;
+        margin: 0;
+        background-image: url("images/illustration-woman-online-desktop.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        width: 300px;
+        height: 250px;
+    }
+    #box{
+        display: hide;
+        position: absolute;
+        top: 120px;
+        left: -5px;
+        width: 150px;
+        height: 120px;
+        margin: 0;
+        background-image: url("images/illustration-box-desktop.svg");
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+    #text {
+        margin: 20px 20px;
+        width: 285px;
+        height: 380px;
+        font-size: 80%;
+    }
+    #text h1 {
+        font-size: 250%;
+        text-align: center;
+    }
+    ul {
+        margin: 0;
+    }
+    li>p:first-child {
+        width: 270px;
+    }
+}
